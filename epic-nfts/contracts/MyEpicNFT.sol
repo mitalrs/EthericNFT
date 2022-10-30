@@ -29,6 +29,7 @@ contract MyEpicNFT is ERC721 {
 
     // Increment the counter for when the next NFT is minted.
     _tokenIds.increment();
+     tokenURI(newItemId);
   }
 
   // Set the NFT's metadata
