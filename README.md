@@ -19,5 +19,13 @@ web3 Project on blockchain technology
 
 
        **EtherScan**:<br>
-         <a href="https://goerli.etherscan.io/address/0xc95e90be2173120f9df0604bc24bc79d6b15fc38">OpenSea NFT</a><br>
+         <a href="https://goerli.etherscan.io/address/0xc95e90be2173120f9df0604bc24bc79d6b15fc38">EtherScan</a><br>
          ![](./READMEImage/etherscan.png)
+<br>
+<br>
+
+
+👑 GENERATE NFTS ON-CHAIN
+1. 🎨 What the heck is on-chain data
+ <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial?utm_source=buildspace.so&utm_medium=buildspace_project">svg</a><br>
+ 
