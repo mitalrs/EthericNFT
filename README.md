@@ -29,3 +29,14 @@ web3 Project on blockchain technology
 1. 🎨 What the heck is on-chain data
  <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial?utm_source=buildspace.so&utm_medium=buildspace_project">svg</a><br>
  
+ 
+ 
+ 😎 CREATE A WEB CLIENT
+ 1. 👾 Setup react app and wallet
+    <a href="https://replit.com/">Replit</a><br>
+    It is a browser-based IDE that lets us easily build web apps and deploy them all from the browser. It is super legit. Instead of having to set up a      full local environment and write commands to deploy, it's all just given to us.
+
+
+
+
+ 
