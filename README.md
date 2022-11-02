@@ -40,3 +40,8 @@ web3 Project on blockchain technology
  <a href="https://replit.com/@MitalSapkale/nft-starter-project-forked#src/App.jsx">forked project for connecting wallet</a><br>
 
  
+😎 CREATE A WEB CLIENT
+   2.😎 CREATE A WEB CLIENT
+ <a href="https://nft-starter-project-forked.mitalsapkale.repl.co/">deployed app on replit</a><br>
+ 
+ 
