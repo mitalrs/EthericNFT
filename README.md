@@ -45,3 +45,8 @@ web3 Project on blockchain technology
  <a href="https://nft-starter-project-forked.mitalsapkale.repl.co/">deployed app on replit</a><br>
  
  
+ 
+ 
+ > https://testnets.opensea.io/assets/goerli/0x78d1e929cfc5256643b3cc67c50e2d7ec3580842/0
+ 
+ 
