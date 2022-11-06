@@ -80,7 +80,7 @@ const App = () => {
   }
   //added new function
   const askContractToMintNft = async () => {
-  const CONTRACT_ADDRESS = "0xA4Be7824B630214AcEE3F0072a32561BDF9C3c9D";
+  const CONTRACT_ADDRESS = "0x71640B5Bc632B83C389d9eAB5147f38eF3412661";
 
   try {
     const { ethereum } = window;
@@ -89,6 +89,15 @@ const App = () => {
       const provider = new ethers.providers.Web3Provider(ethereum);
       const signer = provider.getSigner();
       const connectedContract = new ethers.Contract(CONTRACT_ADDRESS, myEpicNft.abi, signer);
+
+      // THIS IS THE MAGIC SAUCE.
+        // This will essentially "capture" our event when our contract throws it.
+        // If you're familiar with webhooks, it's very similar to that!
+        connectedContract.on("NewEpicNFTMinted", (from, tokenId) => {
+          console.log(from, tokenId.toNumber())
+          alert(`Hey there! We've minted your NFT and sent it to your wallet. It may be blank right now. It can take a max of 10 min to show up on OpenSea. Here's the link: https://testnets.opensea.io/assets/${CONTRACT_ADDRESS}/${tokenId.toNumber()}`)
+        });
+
 
       console.log("Going to pop wallet now to pay gas...")
       let nftTxn = await connectedContract.makeAnEpicNFT();

@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/mital/Documents/web3Project/NFT-Collection/epic-nfts/contracts/MyEpicNFT.sol": {
-      "lastModificationDate": 1667577198582,
-      "contentHash": "f67eee037ba84a13ba585e16ec8059e7",
+      "lastModificationDate": 1667733530806,
+      "contentHash": "1fcdeb568d892eeadf6f82d5126f70a6",
       "sourceName": "contracts/MyEpicNFT.sol",
       "solcConfig": {
         "version": "0.8.17",
