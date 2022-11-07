@@ -11,6 +11,7 @@ const TWITTER_HANDLE = 'marrinette_chng';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = '';
 const TOTAL_MINT_COUNT = 50;
+const loaderAni = document.getElementById('loader');
 
 const App = () => {
   
@@ -111,6 +112,15 @@ const App = () => {
 
       console.log("Going to pop wallet now to pay gas...")
       let nftTxn = await connectedContract.makeAnEpicNFT();
+
+      //loader animation
+      loaderAni.innerHTML = ` 
+       <div class="loader">
+       <div class="inner one"></div>
+      <div class="inner two"></div>
+      <div class="inner three"></div>
+      </div>
+     <span class="waiting-text">wait for mint</span>`
 
       console.log("Mining...please wait.")
       await nftTxn.wait();
