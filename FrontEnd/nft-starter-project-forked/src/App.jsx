@@ -164,6 +164,11 @@ const App = () => {
               Mint NFT
             </button>
           )}
+        
+        <button className="cta-button connect-wallet-button">
+            <a href="https://testnets.opensea.io/" target="_blank">NFTCollection</a>
+        </button>
+
         </div>
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />

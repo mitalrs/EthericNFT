@@ -36,6 +36,7 @@
 }
 
 .cta-button {
+  margin: 10px;
   height: 45px;
   border: 0;
   width: auto;
@@ -203,4 +204,8 @@
   width: 150px;
   height: 64px;
   border-radius: 50%;
+}
+a{
+  text-decoration: none;
+  color: white;
 }
