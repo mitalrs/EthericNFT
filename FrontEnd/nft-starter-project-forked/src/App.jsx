@@ -49,6 +49,16 @@ const App = () => {
     } else {
       console.log("No authorized account found");
     }
+
+    //There, now the user will know if they are on the wrong network!
+    let chainId = await ethereum.request({ method: 'eth_chainId'     });
+    console.log("Connected to chain " + chainId);
+
+     // String, hex code of the chainId of the Rinkebey test network
+    const goerliChainId = "0x5"; 
+    if (chainId !== goerliChainId) {
+     alert("You are not connected to the Goerli Test Network!");
+  }
   }
    
   /*
@@ -80,7 +90,7 @@ const App = () => {
   }
   //added new function
   const askContractToMintNft = async () => {
-  const CONTRACT_ADDRESS = "0x71640B5Bc632B83C389d9eAB5147f38eF3412661";
+  const CONTRACT_ADDRESS = "0xF560454704ddeBd3581f76CBBAe7049A42917D5B";
 
   try {
     const { ethereum } = window;
