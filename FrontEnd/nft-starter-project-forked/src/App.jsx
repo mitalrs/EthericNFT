@@ -11,7 +11,7 @@ const TWITTER_HANDLE = 'marrinette_chng';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = '';
 const TOTAL_MINT_COUNT = 50;
-const loaderAni = document.getElementById('status');
+
 
 const App = () => {
   
@@ -66,6 +66,7 @@ const App = () => {
   * Implement your connectWallet method here
   */
   const connectWallet = async () => {
+    
     try {
       const { ethereum } = window;
 
@@ -91,6 +92,7 @@ const App = () => {
   }
   //added new function
   const askContractToMintNft = async () => {
+    const loaderAni = document.getElementById('status');
   const CONTRACT_ADDRESS = "0xF560454704ddeBd3581f76CBBAe7049A42917D5B";
 
   try {
@@ -164,12 +166,12 @@ const App = () => {
         </button>
 
         <div id="status">
-        <div class="loader">
-          <div class="inner one"></div>
-         <div class="inner two"></div>
-         <div class="inner three"></div>
+        <div className="loader">
+          <div className="inner one"></div>
+         <div className="inner two"></div>
+         <div className="inner three"></div>
          </div>
-        <span class="waiting-text">wait for mint</span>
+        <span className="waiting-text">wait for mint</span>
        </div>
 
         </div>
