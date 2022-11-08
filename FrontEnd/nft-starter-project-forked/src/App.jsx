@@ -11,7 +11,7 @@ const TWITTER_HANDLE = 'marrinette_chng';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = '';
 const TOTAL_MINT_COUNT = 50;
-const loaderAni = document.getElementById('loader');
+const loaderAni = document.getElementById('status');
 
 const App = () => {
   
@@ -112,20 +112,14 @@ const App = () => {
 
       console.log("Going to pop wallet now to pay gas...")
       let nftTxn = await connectedContract.makeAnEpicNFT();
-
-      //loader animation
-      loaderAni.innerHTML = ` 
-       <div class="loader">
-       <div class="inner one"></div>
-      <div class="inner two"></div>
-      <div class="inner three"></div>
-      </div>
-     <span class="waiting-text">wait for mint</span>`
+      loaderAni.style.display="block";
 
       console.log("Mining...please wait.")
       await nftTxn.wait();
       
+      
       console.log(`Mined, see transaction: https://goerli.etherscan.io/tx/${nftTxn.hash}`);
+      loaderAni.style.display="none";
 
     } else {
       console.log("Ethereum object doesn't exist!");
@@ -168,6 +162,15 @@ const App = () => {
         <button className="cta-button connect-wallet-button">
             <a href="https://testnets.opensea.io/" target="_blank">NFTCollection</a>
         </button>
+
+        <div id="status">
+        <div class="loader">
+          <div class="inner one"></div>
+         <div class="inner two"></div>
+         <div class="inner three"></div>
+         </div>
+        <span class="waiting-text">wait for mint</span>
+       </div>
 
         </div>
         <div className="footer-container">

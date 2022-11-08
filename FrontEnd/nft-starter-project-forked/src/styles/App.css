@@ -209,3 +209,6 @@ a{
   text-decoration: none;
   color: white;
 }
+#status{
+  display: none;
+}
