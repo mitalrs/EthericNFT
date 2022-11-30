@@ -4,6 +4,8 @@ web3 Project on blockchain technology
 
  <a href="https://buildspace.so/p/mint-nft-collection/lessons/get-local-environment-running" target="_blank">buildspace</a> 
  
+  <a href="https://buildspace.so/p/mint-nft-collection/lessons/what-is-onchain-data" target="_blank">(after changed UI)buildspace</a>
+ 
  
  
 🦊 MINT YOUR FIRST NFT
