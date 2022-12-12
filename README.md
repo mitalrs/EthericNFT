@@ -5,6 +5,18 @@ web3 Project on blockchain technology
  <a href="https://buildspace.so/p/mint-nft-collection/lessons/get-local-environment-running" target="_blank">buildspace</a> 
  
   <a href="https://buildspace.so/p/mint-nft-collection/lessons/what-is-onchain-data" target="_blank">(after changed UI)buildspace</a>
+  
+  
+  <h3> first 🤑 Getting some fake $ <h3>
+  
+  
+| Name               | Link                                       | Amount    | Time     |
+|       :----:       |                   :----:                   |   :----:  |  :----:  |
+| MyCrypto           |<a>	https://app.mycrypto.com/faucet </a>    | 	0.01     | None     |
+| Official Goerli    | <a>	https://goerlifaucet.com/</a>          | 0.25      | 24 Hours |
+| Chainlink          | <a>	https://faucets.chain.link/goerli</a>  |	0.1       |  	None   |
+
+
  
  
  
