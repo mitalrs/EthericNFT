@@ -7,7 +7,7 @@ web3 Project on blockchain technology
   <a href="https://buildspace.so/p/mint-nft-collection/lessons/what-is-onchain-data" target="_blank">(after changed UI)buildspace</a>
   
   
-  <h3> first 🤑 Getting some fake $ <h3>
+  <h3> first 🤑 Getting some fake $ </h3>
   
   
 | Name               | Link                                       | Amount    | Time     |
