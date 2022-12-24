@@ -35,7 +35,9 @@
   width: 48px;
   height: 48px;
   position: absolute;
-  left: 10px;
+  left: 15px;
+  border-radius: 10px;
+  /* background-color: #ededed; */
 }
 .nav-bar .title{
   font-style:normal;
