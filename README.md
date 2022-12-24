@@ -1,5 +1,7 @@
 # NFT-Collection
 web3 Project on blockchain technology 
+![](/Images/EthericNFT.png)
+
 
 
  <a href="https://buildspace.so/p/mint-nft-collection/lessons/get-local-environment-running" target="_blank">buildspace</a> 
