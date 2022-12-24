@@ -149,6 +149,9 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
+          <nav className="nav-bar"><img src="/src/assets/icon.png" alt="" />
+          <g className="title">EthericNFT</g>
+          </nav>
           <p className="header gradient-text">My NFT Collection</p>
           <p className="sub-text">
             Each unique. Each beautiful. Discover your NFT today.
@@ -182,7 +185,7 @@ const App = () => {
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >{`built by @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>

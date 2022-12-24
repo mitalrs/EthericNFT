@@ -3,6 +3,7 @@
   background-color: #070707;
   overflow: scroll;
   text-align: center;
+  
 }
 
 .container {
@@ -21,6 +22,33 @@
   margin: 0;
   font-size: 50px;
   font-weight: bold;
+}
+
+.nav-bar{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-bar img{
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 10px;
+}
+.nav-bar .title{
+  font-style:normal;
+  font-weight:500;
+  font-size:27px;
+  line-height:1;
+  font-family:'Raleway Medium Alt1';
+  font-variant-ligatures:none;
+  text-align:left;
+  text-anchor:middle;
+  color: #ededed;
+  position: absolute;
+  left: 100px;
 }
 
 .sub-text {
