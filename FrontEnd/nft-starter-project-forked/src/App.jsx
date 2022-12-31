@@ -153,7 +153,8 @@ const App = () => {
             <g className="title">EthericNFT</g>
           </nav>
         </div>
-        <div style={{padding: "100px"}}>
+        {/* inline css */}
+        <div style={{padding: "100px"}}> 
           <p className="header gradient-text">My NFT Collection</p>
           <p className="sub-text">
             Each unique. Each beautiful. Discover your NFT today.
