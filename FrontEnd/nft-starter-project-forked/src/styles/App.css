@@ -157,7 +157,7 @@
 /* loading animation */
 .loader {
   position: absolute;
-  top: calc(50% - 32px);
+  top: calc(75% - 32px);
   left: calc(50% - 32px);
   width: 64px;
   height: 64px;
@@ -228,8 +228,8 @@
    text-align: center;
 
   position: absolute;
-  top: calc(66% - 40px);
-  left: calc(48% - 32px);
+  top: calc(88% - 40px);
+  left: calc(44% - 32px);
   width: 150px;
   height: 64px;
   border-radius: 50%;
