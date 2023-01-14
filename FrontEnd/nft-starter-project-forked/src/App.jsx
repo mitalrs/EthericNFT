@@ -4,6 +4,7 @@ import './styles/App.css';
 import twitterLogo from './assets/twitter-logo.svg';
 import { ethers } from "ethers";
 import myEpicNft from './utils/MyEpicNFT.json';
+import logo from './assets/icon.svg'
 
 
 // Constants
@@ -149,7 +150,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <nav className="nav-bar"><img src="/src/assets/icon.png" alt="" />
+          <nav className="nav-bar"><img src={ logo } alt="" />
             <g className="title">EthericNFT</g>
           </nav>
         </div>
