@@ -1,15 +1,17 @@
-# NFT-Collection
-web3 Project on blockchain technology 
 ![](/Images/EthericNFT.png)
+# EthericNFT (NFT-Collection)
+web3 Project on blockchain technology 
 
 
+## About The Project
+### 💰 Connect wallet to web app
 
  <a href="https://buildspace.so/p/mint-nft-collection/lessons/get-local-environment-running" target="_blank">buildspace</a> 
  
   <a href="https://buildspace.so/p/mint-nft-collection/lessons/what-is-onchain-data" target="_blank">(after changed UI)buildspace</a>
   
   
-  <h3> first 🤑 Getting some fake $ </h3>
+  <h3> 🤑 Getting some fake $ </h3>
   
   
 | Name               | Link                                       | Amount    | Time     |
@@ -22,21 +24,29 @@ web3 Project on blockchain technology
  
  
  
-🦊 MINT YOUR FIRST NFT
-4. 💎 Create a contract that mints NFTs
-   - 🎉 Deploy to Goerli and see on OpenSea
-        **used alchemy instead of quicknode**:<br>
-        <a href="https://dashboard.alchemy.com/mempool">alchemy mempool</a><br>
-         ![](./READMEImage/Mempool%20alchemy.png)
+### 🦊  CHECK A STATUS OF NFT WAS MINTED OR NOT   
+ **used alchemy instead of quicknode**:<br>
+ - Path(alchemy/dashboard/mempool):- here you can find the status of your nft was minted or not.
+ - description:- What is a Alchemy? Alchemy provides the leading blockchain development platform powering millions of users in 197 countries worldwide. Our mission is to provide developers with the fundamental building blocks they need to create the future of technology.  
+   - What is mempool? A mempool, or memory pool, is a list of pending transactions waiting for validation from a node before it is committed to a block on the blockchain.<br>
+- **Here see your mempool** :<a href="https://dashboard.alchemy.com/mempool">alchemy mempool</a><br><br>
+![](./READMEImage/Mempool%20alchemy.png)
 
+
+### 💎 WHAT IS A CONTRACT OF MINT NFT's
+- Path(EtherScan/cotractAddress/contract):- here you can find the status of your nft was minted or not.
+- description:- “Minting an NFT” is the act of publishing a unique instance of your ERC-721 token on the blockchain.
+  - A smart contract is self-executing lines of code based on the terms and predetermined conditions written to a         blockchain. An NFT smart contract is used to validate NFTs in the digital world.    
+  - EtherScan: Etherscan is a block explorer for the Ethereum blockchain. It allows users to easily search and browse transactions and blocks. It also provides information about each transaction and block, such as the hash and timestamp. You can think of Etherscan as the Google of Ethereum.<br><br> 
+- **Your Etheric page look like-this** :<a href="https://goerli.etherscan.io/address/0xf560454704ddebd3581f76cbbae7049a42917d5b#code">EtherScan</a><br><br>
+         ![](./READMEImage/etherscan.png)
+         
+         
+### 🎉 Deploy to Goerli and see on OpenSea
         **after deployed on OpenSea**:<br>
+        - 
          <a href="https://testnets.opensea.io/assets/goerli/0xc95E90Be2173120F9DF0604Bc24BC79D6B15FC38/0">OpenSea NFT</a><br>
          ![](./READMEImage/opensea.png)
-
-
-       **EtherScan**:<br>
-         <a href="https://goerli.etherscan.io/address/0xc95e90be2173120f9df0604bc24bc79d6b15fc38">EtherScan</a><br>
-         ![](./READMEImage/etherscan.png)
 <br>
 <br>
 
