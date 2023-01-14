@@ -149,7 +149,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <nav className="nav-bar"><img src="/src/assets/icon.png" alt="" />
+          <nav className="nav-bar"><img src="/src/assets/icon.svg" alt="" />
             <g className="title">EthericNFT</g>
           </nav>
         </div>
